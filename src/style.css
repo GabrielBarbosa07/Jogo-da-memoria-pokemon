@@ -61,6 +61,21 @@ img {
     text-align: center;
 }
 
+.container .btn-outline-danger{
+    border: 0.5px solid #DC3545;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #DC3545;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.container .btn-outline-danger:hover{
+    background-color: #DC3545;
+    color: white;
+}
+
 @media(max-width: 1000px) {
     .grid {
         grid-template-columns: repeat(4, 1fr);
